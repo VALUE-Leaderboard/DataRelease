@@ -28,6 +28,6 @@ VATEXC=$BLOB/'vatex_en_c'
 if [ ! -d $ANN/vatex_en_c ] ; then
     mkdir -p $ANN/vatex_en_c
 fi
-for SPLIT in 'train' 'val' 'test_piblic' 'test_private'; do
+for SPLIT in 'train' 'val' 'test_public' 'test_private'; do
     wget -nc $VATEXC/vatex_en_c_${SPLIT}_release.jsonl -O $ANN/vatex_en_c/vatex_en_c_${SPLIT}_release.jsonl
 done
