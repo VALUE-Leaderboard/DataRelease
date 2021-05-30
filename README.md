@@ -6,8 +6,13 @@ Progress:
   - [X] Annotations
   - [ ] Original video ids and timestamps
 
+Shield: [![CC BY-NC 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
-Shield: [!License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+The VALUE benchmark  is licensed under a
+[Creative Commons Attribution-NonCommercial 4.0 International License][cc-by-nc].
 
-The VALUE benchmark is licensed under a
-[Creative Commons Attribution-NonCommercial 4.0 International License](https://licensebuttons.net/l/by-nd/4.0/80x15.png)](https://creativecommons.org/licenses/by-nd/4.0/)
+[![CC BY-NC 4.0][cc-by-nc-image]][cc-by-nc]
+
+[cc-by-nc]: https://creativecommons.org/licenses/by-nd/4.0/
+[cc-by-nc-image]: https://licensebuttons.net/l/by-nd/4.0/80x15.png
+[cc-by-nc-shield]: https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg
