@@ -14,5 +14,5 @@ The VALUE benchmark  is licensed under a
 [![CC BY-NC 4.0][cc-by-nc-image]][cc-by-nc]
 
 [cc-by-nc]: https://creativecommons.org/licenses/by-nd/4.0/
-[cc-by-nc-image]: https://licensebuttons.net/l/by-nd/4.0/80x15.png
+[cc-by-nc-image]: https://licensebuttons.net/l/by-nc/4.0/80x15.png
 [cc-by-nc-shield]: https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg
