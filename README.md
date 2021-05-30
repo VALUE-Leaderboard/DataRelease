@@ -6,7 +6,7 @@ Progress:
   - [X] Annotations
   - [ ] Original video ids and timestamps
 
-Shield: [![CC BY-NC 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+Shield: [![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
 
 The VALUE benchmark  is licensed under a
 [Creative Commons Attribution-NonCommercial 4.0 International License][cc-by-nc].
