@@ -1,13 +1,26 @@
 # VALUE DataRelease
 
-Progress:
-  - [ ] Visual features
-  - [X] Subtitles
-  - [X] Annotations
-  - [ ] Original video ids and timestamps
+This repo contains scripts for downloading visual features, subtitles and annotations of all VALUE tasks. Due to copyright issue, we could not release the raw videos. However, we will also provide all the YouTube ids/TV episode versions along with their original timestamps to facilitate future end-to-end training on VALUE benchmark.
 
-Shield: [![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
+## Release Plan
 
+- Visual features
+  - [x] ResNet
+  - [x] [SlowFast](https://github.com/facebookresearch/SlowFast)
+  - [x] [MIL-NCE-S3D](https://github.com/antoine77340/S3D_HowTo100M)
+  - [x] [CLIP-ViT](https://github.com/openai/CLIP)
+- [x] Subtitles
+- [x] Annotations
+- [ ] Original video ids and timestamps
+
+## Visual Feature Extraction
+
+The downaloded features are .npz files, one file per video. We extract frame-level features at a fixed frame rate (1 feature every 1.5 seconds). If you wish to reproduce the feature extraction process, all feature extraction code are available at [here](https://github.com/linjieli222/HERO_Video_Feature_Extractor). Please follow the link for full instructions to extract the provided features. 
+
+
+## License
+
+<!-- Shield: [![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc] -->
 The VALUE benchmark  is licensed under a
 [Creative Commons Attribution-NonCommercial 4.0 International License][cc-by-nc].
 

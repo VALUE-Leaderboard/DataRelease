@@ -1,6 +1,6 @@
 DOWNLOAD=$1
 
-DATASET=violin
+DATASET=how2
 
 VIS=$DOWNLOAD/vis_features/$DATASET
 if [ ! -d $VIS ] ; then

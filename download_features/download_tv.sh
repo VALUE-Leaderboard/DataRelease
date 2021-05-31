@@ -1,6 +1,6 @@
 DOWNLOAD=$1
 
-DATASET=violin
+DATASET=tv
 
 VIS=$DOWNLOAD/vis_features/$DATASET
 if [ ! -d $VIS ] ; then
