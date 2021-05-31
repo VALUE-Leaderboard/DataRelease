@@ -15,7 +15,7 @@ This repo contains scripts for downloading visual features, subtitles and annota
 
 ## Visual Feature Extraction
 
-The downaloded features are .npz files, one file per video. We extract frame-level features at a fixed frame rate (1 feature every 1.5 seconds). If you wish to reproduce the feature extraction process, all feature extraction code are available at [here](https://github.com/linjieli222/HERO_Video_Feature_Extractor). Please follow the link for full instructions to extract the provided features. 
+We extract frame-level features at a fixed frame rate (1 feature every 1.5 seconds) and save them into .npz file per video.  To reproduce the feature extraction process, please follow the instructions and code released at [here](https://github.com/linjieli222/HERO_Video_Feature_Extractor).
 
 
 ## License
