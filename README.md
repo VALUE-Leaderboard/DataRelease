@@ -1,6 +1,8 @@
 # VALUE DataRelease
 
-This repo contains scripts for downloading visual features, subtitles and annotations of all VALUE tasks. Due to copyright issue, we could not release the raw videos. However, we will also provide all the YouTube ids/TV episode versions along with their original timestamps to facilitate future end-to-end training on VALUE benchmark.
+This repo contains scripts for downloading **visual features**, **subtitles** and **annotations** of all VALUE tasks. 
+
+Due to copyright issue, we could not release the raw videos. However, we will also provide all the YouTube ids/TV episode versions along with their original timestamps to facilitate future end-to-end training on VALUE benchmark.
 
 ## Release Plan
 
