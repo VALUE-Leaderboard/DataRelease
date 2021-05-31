@@ -1,4 +1,4 @@
-# VALUE DataRelease
+# VALUE Data Release
 
 This repo contains scripts for downloading **visual features**, **subtitles** and **annotations** of all VALUE tasks. 
 
