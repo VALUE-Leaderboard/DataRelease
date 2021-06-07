@@ -216,7 +216,7 @@ The files are in [JSON Lines](https://jsonlines.org/) format. Each line is forma
 
 ### YC2R
 
-[Paper](https://arxiv.org/abs/1703.09788)
+[Paper](https://arxiv.org/abs/1703.09788), [Dataset Website](http://youcook2.eecs.umich.edu/)
 
 YC2R is a video retrieval dataset based on YouTube cooking videos. Its annotations can be downloaded by:
 ```
@@ -253,7 +253,7 @@ Each of the retrieval datasets is also accompanied by a `video2dur_idx` file, co
 
 [Paper](https://arxiv.org/abs/2001.09099), [Dataset Website](https://tvr.cs.unc.edu/tvc.html)
 
-TVC is a video captioning dataset based on 6 TV shows (the same as TVC). It shares some of the annotations with TVR. Its annotations can be downloaded by:
+TVC is a video captioning dataset based on 6 TV shows (the same as TVQA). It shares some of the annotations with TVR. Its annotations can be downloaded by:
 ```
 bash download_annotations/download_tv_annotations.sh $DATA_DIR
 ```
@@ -307,7 +307,7 @@ The files are in [JSON Lines](https://jsonlines.org/) format. Each line is forma
 
 ### YC2C
 
-[Paper](https://arxiv.org/abs/1703.09788)
+[Paper](https://arxiv.org/abs/1703.09788), [Dataset Website](http://youcook2.eecs.umich.edu/)
 
 YC2C is a video captioning dataset based on YouTube cooking videos (the same as YC2R). Its annotations can be downloaded by:
 ```
