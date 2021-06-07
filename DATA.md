@@ -235,7 +235,7 @@ The files are in [JSON Lines](https://jsonlines.org/) format. Each line is forma
 
 ### video2dur_idx
 
-Each of the retrieval datasets is also accompanied by a `video2dur_idx` file, containing mappings from video name to video duration and video idx (used for submission). For example, `tvr_video2dur_idx.json` is the for TVR, each entry in this file is:
+Each of the retrieval datasets is also accompanied by a `video2dur_idx` file, containing mappings from video name to video duration and video idx (used for submission). For example, `tvr_video2dur_idx.json` is for TVR, each entry in this file is:
 ```
 {
   "castle_s01e01_seg02_clip_20": [
