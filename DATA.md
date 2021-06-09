@@ -68,12 +68,13 @@ bash download_annotations/download_violin_annotations.sh $DATA_DIR
 | --- | --- | --- | 
 | train | 76,122 | violin_train_release.jsonl | 
 | val | 9,600 | violin_val_release.jsonl | 
+| test | 9,600 | violin_test_release.jsonl |
 | test_private | 7,722 | violin_test_private_release.jsonl |
 
 The files are in [JSON Lines](https://jsonlines.org/) format. Each line can be loaded as a Python dict:
 ```
 {
-  "paired_id": "dh_s08e07_clip_1374_1411-2-0",  # str, each true (false) statement is paired with a false (true) statement. The paired_id for its dh_s08e07_clip_1374_1411-2-1
+  "paired_id": "dh_s08e07_clip_1374_1411-2-0",  # str, each true (false) statement is paired with a false (true) statement. The paired_id for it is dh_s08e07_clip_1374_1411-2-1. Note that paired_id is not provided in test_private set.
   "vid_name": "dh_s08e07_clip_1374_1411",  # str, video name
   "statement": "The woman with red hair ...",  # str, statement
   "example_id": 85354,  # int, unique example id
@@ -158,9 +159,9 @@ bash download_annotations/download_how2_annotations.sh $DATA_DIR
 
 | Split | #examples | Filename | 
 | --- | --- | --- | 
-| train | 34,187 | how2r_train_release.jsonl | 
-| val | 3,115 | how2r_val_1k_release.jsonl | 
-| test_public | 3,095 | how2r_test_public_1k_release.jsonl |
+| train | 27,135 | how2r_train_release.jsonl | 
+| val | 1,295 | how2r_val_1k_release.jsonl | 
+| test_public | 1,265 | how2r_test_public_1k_release.jsonl |
 
 The files are in [JSON Lines](https://jsonlines.org/) format. Each line is formatted similarly to TVR, which we detailed above.
 
@@ -270,6 +271,7 @@ bash download_annotations/download_vatex_annotations.sh $DATA_DIR
 | --- | --- | --- | 
 | train | 25,991 | vatex_en_c_train_release.jsonl | 
 | val | 3,000 | vatex_en_c_val_release.jsonl | 
+| test_public | 6,000 | vatex_en_c_test_public_release.jsonl | 
 | test_private | 6,278 | vatex_en_c_test_private_release.jsonl |
 
 The files are in [JSON Lines](https://jsonlines.org/) format. Each line is formatted similarly to TVC, which we detailed above.
