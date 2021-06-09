@@ -146,36 +146,6 @@ The files are in [JSON Lines](https://jsonlines.org/) format. Each line can be l
 }
 ```
 
-
-### How2R
-
-[Paper](https://arxiv.org/abs/2001.09099), [Dataset Website](https://tvr.cs.unc.edu/)
-
-TVR is a video moment retrieval dataset based on 6 TV shows (the same as TVQA). Its annotations can be downloaded by:
-```
-bash download_annotations/download_tv_annotations.sh $DATA_DIR
-```
-`$DATA_DIR` is the directory storing the downloaded annotations. There are 3 annotation files as list below:
-
-| Split | #examples | Filename | 
-| --- | --- | --- | 
-| train | 87,175 | tvr_train_release.jsonl | 
-| val | 10,895 | tvr_val_release.jsonl | 
-| test | 15,253 | tvr_test_release.jsonl |
-
-The files are in [JSON Lines](https://jsonlines.org/) format. Each line can be loaded as a Python dict with the following entries:
-
-```
-{
-  "vid_name": "friends_s04e20_seg02_clip_07",  # str, video name
-  "duration": 58.03,  # int, video duration
-  "ts": [50.19, 57.73],  # list(int), start and end timestamps of the moment
-  "desc": "Joey closes the magazine ...",  # str, text query
-  "type": "v",  # str, query type, v=video, t=subtitle, vt=video+subtitle 
-  "desc_id": 93717  # int, unique desc id
-}
-```
-
 ### How2R
 
 [Paper](https://arxiv.org/abs/2005.00200)
