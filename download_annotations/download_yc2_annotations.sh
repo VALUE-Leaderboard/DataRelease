@@ -13,7 +13,7 @@ YC2R=$BLOB/'yc2r'
 # processed subtitles
 wget -nc $YC2R/yc2_subtitles.jsonl -O $ANN/yc2_subtitles.jsonl
 
-# How2R annotations
+# YC2R annotations
 if [ ! -d $ANN/yc2r ] ; then
     mkdir -p $ANN/yc2r
 fi
@@ -24,7 +24,7 @@ wget -nc $YC2R/yc2r_video2dur_idx.json -O $ANN/yc2r/yc2r_video2dur_idx.json
 
 YC2C=$BLOB/'yc2c'
 
-# How2QA annotations
+# YC2C annotations
 if [ ! -d $ANN/yc2c ] ; then
     mkdir -p $ANN/yc2c
 fi
