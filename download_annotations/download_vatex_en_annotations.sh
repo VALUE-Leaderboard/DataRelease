@@ -13,7 +13,7 @@ VATEXR=$BLOB/'vatex_en_r'
 # processed subtitles
 wget -nc $VATEXR/vatex_subtitles.jsonl -O $ANN/vatex_subtitles.jsonl
 
-# How2R annotations
+# VATEX_EN_R annotations
 if [ ! -d $ANN/vatex_en_r ] ; then
     mkdir -p $ANN/vatex_en_r
 fi
@@ -24,7 +24,7 @@ wget -nc $VATEXR/vatex_en_r_video2dur_idx.json -O $ANN/vatex_en_r/vatex_en_r_vid
 
 VATEXC=$BLOB/'vatex_en_c'
 
-# How2QA annotations
+# VATEX_EN_C annotations
 if [ ! -d $ANN/vatex_en_c ] ; then
     mkdir -p $ANN/vatex_en_c
 fi
