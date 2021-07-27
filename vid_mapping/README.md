@@ -17,7 +17,7 @@ Please find the mapping from our video ids (mostly numerical) to the original Yo
 
 There is a fraction of videos that we failed to map back to YouTube ids due to some information loss during the annotation process. If you wish to get the raw videos for these unmapped ones, please send your inquiry to `lindsey DOT li AT microsoft DOT com`.
 
-Some additional information about the How2 videos. The original YouTube videos are cut into 60-second long clips. For videos that are of length longer or shorter than multiple of 60 seconds, we kept some of the remaining segments in the dataset. Most of the videos (>90%) are 60-second long. 
+[Additional information on video length] The original YouTube videos are cut into 60-second long clips. For videos that are of length longer or shorter than multiple of 60 seconds, we kept some of the remaining segments in the dataset. Most of the videos (>90%) are 60-second long. 
 
 ## TV videos
 
