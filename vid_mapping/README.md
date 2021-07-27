@@ -1,6 +1,7 @@
 # Vid Mapping
-
-This folder contains (1) [YouTube videos] the mapping of vids in VALUE release to the original YouTube ids and start/end timestamps and (2) [TV videos] release plan for TV video versions. 
+This folder aims to provide
+- [YouTube videos] the mapping of vids in VALUE release to the original YouTube ids and start/end timestamps
+- [TV videos] release plan for TV video versions. 
 
 ## YouTube Videos
 ### VATEX
@@ -12,7 +13,7 @@ We preprocess the original long YouTube videos into video clips according to the
 To give an example, `iuQjb1-WAzs_0` is the first segment with segment id `0` for video `iuQjb1-WAzs`.
 
 ### How2
-Please find the mapping from our video ids (mostly numerical) to the original YouTube video ids and the associated timestamps in `how2_vid_mapping.json`. 
+Please find the mapping from our video ids (mostly numerical) to the original YouTube video ids and the associated timestamps in [`how2_vid_mapping.json`](https://github.com/VALUE-Leaderboard/DataRelease/blob/main/vid_mapping/how2_vid_mapping.json). 
 
 There is a fraction of videos that we failed to map back to YouTube ids due to some information loss during the annotation process. If you wish to get the raw videos for these unmapped ones, please send your inquiry to `lindsey DOT li AT microsoft DOT com`.
 
