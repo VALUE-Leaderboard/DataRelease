@@ -13,7 +13,7 @@ Due to copyright issue, we could not release the raw videos. However, we will al
   - [x] [CLIP-ViT](https://github.com/openai/CLIP)
 - [x] Subtitles
 - [x] Annotations
-- [ ] Original video ids and timestamps
+- [x] Original video ids and timestamps for YouTube videos
 
 
 ## Annotations
