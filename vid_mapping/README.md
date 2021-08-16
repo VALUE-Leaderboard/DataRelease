@@ -27,4 +27,4 @@ We are actively working on tracking back to the original purchase history to pro
 Alternatively, you can obtain the raw frames extracted at fps=3 by filling out this form (https://goo.gl/forms/HJiFJSllupqeCbax1).
 
 ### VIOLIN
-Stay tuned for information about raw frames extracted at fps=3. 
+We are working on to host raw frames extracted at fps=3 via a public download link. If you wish to get a copy ASAP, please send your inquiry to `lindsey DOT li AT microsoft DOT com`.
