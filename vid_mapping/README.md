@@ -5,7 +5,7 @@ This folder aims to provide
 
 ## YouTube Videos
 ### VATEX
-VATEX video ids are formatted as `{YouTubeID}_{StartTime}_{EndTime}`, which should already allow you to track back the their YouTube ids and timestamps.
+VATEX video ids are formatted as `{YouTubeID}_{StartTime}_{EndTime}`, which should already allow you to track back the their YouTube ids and timestamps. For other inquries regarding this dataset, please send your request to `vatex DOT org AT gmail DOT com`. 
 
 ### YouCook2
 We preprocess the original long YouTube videos into video clips according to the `segment` provided in its original annotations (you can find it [here](http://youcook2.eecs.umich.edu/download)).  
@@ -24,7 +24,7 @@ There is a fraction of videos that we failed to map back to YouTube ids due to s
 ### TVR/TVQA/TVC/VLEP
 We are actively working on tracking back to the original purchase history to provide the version information. 
 
-Alternatively, you can obtain the raw frames extracted at fps=3 by filling out this form (https://goo.gl/forms/HJiFJSllupqeCbax1).
+Alternatively, you can obtain the raw frames extracted at fps=3 by filling out these forms TV Datasets[https://goo.gl/forms/HJiFJSllupqeCbax1], VLEP[https://forms.gle/szvKNp77CxNVevNS8].
 
 ### VIOLIN
 We are working to host raw frames extracted at fps=3 via a public download link. If you wish to get a copy ASAP, please send your inquiry to `lindsey DOT li AT microsoft DOT com`.
